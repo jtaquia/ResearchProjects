@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contacto - TAQUÍA GUTIÉRREZ | Soluciones analíticas </title>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/x-icon" href="Pelican.ico">
+
+    <!-- Cargando fuentes-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,700italic' rel='stylesheet' type='text/css'>
+
+    <!-- Cargando iconos -->
+    <link href='css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+
+
+    <!-- Carga de archivos css -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body class="paginas-internas">
+    <section class="bienvenidos">
+
+        <header class="encabezado navbar-fixed-top" role="banner" id="encabezado">
+            <div class="container">
+                <a href="index.html" class="logo">
+                    <img src="images/logo1.png" alt="Logo del sitio">
+                </a>
+
+                <button type="button" class="boton-buscar" data-toggle="collapse" data-target="#bloque-buscar" aria-expanded="false">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+                <button type="button" class="boton-menu hidden-md-up" data-toggle="collapse" data-target="#menu-principal" aria-expanded="false">
+                    <i class="fa fa-bars" aria-hidden="true"></i></button>
+
+                <form action="#" id="bloque-buscar" class="collapse">
+                    <div class="contenedor-bloque-buscar">
+                        <input type="text" placeholder="Buscar...">
+                        <input type="submit" value="Buscar">
+                    </div>
+                </form>
+
+                <nav id="menu-principal" class="collapse">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <!-- <li><a href="servicios.html">Servicios</a></li> -->
+                        <li class="active"><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </header>
+
+
+        <div class="texto-encabezado text-xs-center">
+
+            <div class="container">
+                <h1 class="display-4 wow bounceIn">Contacto</h1>
+                <p class="wow bounceIn" data-wow-delay=".3s">Estamos listos para ayudarte</p>
+
+            </div>
+
+        </div>
+
+    </section>
+    <section class="ruta py-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 text-xs-right">
+                    <a href="index.html">Inicio</a> » Contacto
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <main class="py-1">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-8">
+                    <h2 class="m-b-2">Formulario de contacto: ¡Coordinemos una reunión! </h2>
+
+
+                    <form action="process.php" method="POST" onsubmit="return check()">
+
+                        <div class="form-group row">
+                            <label for="name" class="col-md-4 col-form-label">Nombre</label>
+
+                            <div class="col-md-8">
+                                <input class="form-control" type="text" id="name" name="name" placeholder="Ingrese su nombre" data-toggle="tooltip" data-placement="top" title="Ingrese su nombre completo">
+                            </div>
+                        </div>
+
+
+                        <div class="form-group row">
+                            <label for="email" class="col-md-4 col-form-label">Email</label>
+
+                            <div class="col-md-8">
+                                <input class="form-control" type="text" id="email" name="email" placeholder="Ingrese su email" data-toggle="tooltip" data-placement="top" title="Ingrese su email">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="phone" class="col-md-4 col-form-label">Teléfono</label>
+
+                            <div class="col-md-8">
+                                <input class="form-control" input type="text" name="phone" id="phone" placeholder="Ingrese su teléfono" data-toggle="tooltip" data-placement="top" title="Ingrese su teléfono">
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="comment" class="col-md-4 col-form-label">Mensaje</label>
+
+                            <div class="col-md-8">
+                                <textarea class="form-control" rows="5" id="comment" name="comment" placeholder="Ingrese su mensaje" data-toggle="tooltip" data-placement="top" title="Ingrese un mensaje"></textarea>
+
+                            </div>
+                        </div>
+
+
+                        <div class="form-group row">
+                            <div class="col-md-8 offset-md-4">
+                                <button type="submit" class="btn btn-primary">Enviar</button>
+                                <button type="reset" class="btn btn-secondary">Limpiar</button>
+                            </div>
+                        </div>
+                    </form>
+
+
+
+
+                </div>
+                
+
+
+
+
+
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+
+
+    <footer class="piedepagina py-1" role="contentinfo">
+        <div class="container">
+            <p>2023 © TAQUÍA GUTIÉRREZ Todos los derechos reservados</p>
+            <ul class="redes-sociales">
+                <li><a href="https://www.linkedin.com/in/jos%C3%A9-antonio-taqu%C3%ADa-guti%C3%A9rrez-a5a54611/"><i class="fa fa-facebook" aria-hidden="true"> </i>  </a></li>
+                <!-- <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> </a></li> -->
+                <li><a href="https://www.youtube.com/watch?v=rzDxnFtE2qo&t=2s"><i class="fa fa-youtube" aria-hidden="true"></i> </a></li>
+            </ul>
+
+        </div>
+
+    </footer>
+
+    <a data-scroll class="ir-arriba" href="#encabezado"><i class="fa  fa-arrow-circle-up" aria-hidden="true"> </i> </a>
+
+    <!-- Carga de archivos  JS -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+
+    </script>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/sitio.js"></script>
+
+</body>
+
+</html>
